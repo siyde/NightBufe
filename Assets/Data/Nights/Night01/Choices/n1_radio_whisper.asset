@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa113b6b1cebaa43ae44ad57bae2b79, type: 3}
+  m_Name: n1_radio_whisper
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.ChoiceData
+  id: n1_radio_whisper
+  label: "Radyoyu a\xE7\u0131k b\u0131rak"
+  resultText: "Parazitin i\xE7inden biri f\u0131s\u0131ldad\u0131. Sana m\u0131?"
+  effects:
+  - counter: 2
+    amount: 1
+  tensionSpike: 0.3
+  flickerLights: 0

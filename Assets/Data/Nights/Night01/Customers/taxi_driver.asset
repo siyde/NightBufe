@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08107c376139164eb83f3894259a131, type: 3}
+  m_Name: taxi_driver
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.CustomerData
+  id: taxi_driver
+  displayName: "Taksi \u015Eof\xF6r\xFC"
+  artKey: customer_taxi
+  isSmall: 0
+  paleness: 0
+  arrivalTime: 01:30
+  order:
+    wantsDurum: 1
+    fillings:
+    - tavuk
+    - domates
+    - acisos
+    drink: kola
+  orderText: "Ac\u0131l\u0131 bir tavuk d\xFCr\xFCm, domatesli. Bir de kola, buz
+    gibi."
+  greeting: "Hay\u0131rl\u0131 i\u015Fler. Taksi kap\u0131da, \xE7abuk olsun."
+  price: 110
+  paysMoney: 1
+  servedLine: "Eline sa\u011Fl\u0131k. Bu saatte a\xE7\u0131k yer bulmak zor."
+  servedLineIfSigned: 
+  wrongOrderLine: "Bu de\u011Fil ama... bo\u015F ver, acelem var."
+  refusedLine: "Kapal\u0131 m\u0131? Peki. Ben buralarday\u0131m."
+  servedChoice: {fileID: 0}
+  refusedChoice: {fileID: 0}
+  talkOptions:
+  - label: Sohbet et
+    reply: "K\xF6\u015Fede az \xF6nce kaza olmu\u015F. Bir taksi, kar\u015F\u0131dan
+      gelen kamyon... Ambulans \xE7abuk geldi ama. Neyse, bize ne."
+    choice: {fileID: 11400000, guid: 6f1c3244da172ce448e2a3e46fb96e02, type: 2}

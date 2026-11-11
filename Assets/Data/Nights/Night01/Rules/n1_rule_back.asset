@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13de9dda903edf4180c34a488263dc7, type: 3}
+  m_Name: n1_rule_back
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.RuleData
+  id: n1_rule_back
+  text: "\xC7ocu\u011Fa servis yapma."
+  illegibleText: "\xC7..u.a   s..v.s   y..ma."
+  curiosityToRead: 4
+  isLie: 0

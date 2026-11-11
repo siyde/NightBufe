@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08107c376139164eb83f3894259a131, type: 3}
+  m_Name: watchman
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.CustomerData
+  id: watchman
+  displayName: "Mahalle Bek\xE7isi"
+  artKey: customer_watchman
+  isSmall: 0
+  paleness: 0
+  arrivalTime: 02:40
+  order:
+    wantsDurum: 0
+    fillings: []
+    drink: ayran
+  orderText: Bana sadece bir ayran ver.
+  greeting: "Hay\u0131rl\u0131 n\xF6betler."
+  price: 30
+  paysMoney: 1
+  servedLine: Eski sahibi de her gece bir ayran verirdi bana. Allah rahmet eylesin.
+  servedLineIfSigned: 
+  wrongOrderLine: Ayran dedim, ayran.
+  refusedLine: "Peki, peki. G\xF6z\xFCn a\xE7\u0131k olsun."
+  servedChoice: {fileID: 0}
+  refusedChoice: {fileID: 0}
+  talkOptions:
+  - label: Eski sahibi sor
+    reply: "Yirmi y\u0131l bu tezg\xE2hta durdu. Bir sabah ezan okunurken kepengi
+      indirdi, bir daha a\xE7mad\u0131. K\xE2\u011F\u0131d\u0131n\u0131 h\xE2l\xE2
+      tezg\xE2h\u0131n alt\u0131nda m\u0131 tutuyorsun?"
+    choice: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb5ad291678cc64789322bb6733cb67, type: 3}
+  m_Name: Night01
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.NightData
+  nightNumber: 1
+  title: "Gece 1 \u2013 \u0130lk Vardiya"
+  durationSeconds: 420
+  baseTension: 0.05
+  introText: "Gece 1 \u2013 \u0130lk Vardiya\nTezg\xE2h\u0131n alt\u0131nda eski
+    sahibin b\u0131rakt\u0131\u011F\u0131 bir k\xE2\u011F\u0131t var."
+  endText: "Ezan okunuyor. Kepengi indiriyorsun.\nD\xF6ner \u015Fi\u015Fi... hep
+    b\xF6yle mi d\xF6n\xFCyordu?"
+  customers:
+  - {fileID: 11400000, guid: fc877a33720b27944ab07959aa9c9f0c, type: 2}
+  - {fileID: 11400000, guid: f8b49abb13084eb4ab925a0b7366fb3e, type: 2}
+  - {fileID: 11400000, guid: 78afcf71db75f1042bddec04b3746968, type: 2}
+  - {fileID: 11400000, guid: 7a371954247ae9644b9f3d52db6f3109, type: 2}
+  - {fileID: 11400000, guid: fddb137f1d1353949b22a1d9a7938aeb, type: 2}
+  newRules:
+  - {fileID: 11400000, guid: b698894d1eebd274eb4506a66c67258a, type: 2}
+  - {fileID: 11400000, guid: 0b25a628b30e79143888bd490a8610fd, type: 2}
+  - {fileID: 11400000, guid: 842ea58f838a5aa4cac244d693ec4ba5, type: 2}
+  - {fileID: 11400000, guid: b07d0a2fbc374304e8f0430682063483, type: 2}
+  backRule: {fileID: 11400000, guid: c92eefe64fa086c41a32e80b2755cf27, type: 2}
+  signNameChoice: {fileID: 11400000, guid: 6eacbb52e25fa81458ee15c7e850911f, type: 2}
+  flipPaperChoice: {fileID: 11400000, guid: 9623da4a86e4faa44a4200c186e3305f, type: 2}
+  whisperTime: 03:15
+  whisperWindowMinutes: 45
+  whisperText: ...uyan...
+  radioWhisperChoice: {fileID: 11400000, guid: b17938dc017d27a46a4b511b78f992af, type: 2}
+  anomalies:
+  - type: 0
+    time: 01:05
+    durationSeconds: 0.6

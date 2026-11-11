@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b24a87337d4154aa8876b143384d55, type: 3}
+  m_Name: ArtLibrary
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.ArtLibrary
+  placeholderSquare: {fileID: 21300000, guid: 69a7295cef1122d4fbf321b48e4706ed, type: 3}
+  placeholderCircle: {fileID: 21300000, guid: 211ceb574ad95fd499ba7cbb3ef018d0, type: 3}
+  lightWarm: {r: 1, g: 0.82, b: 0.5, a: 1}
+  lightTense: {r: 0.62, g: 0.9, b: 0.55, a: 1}
+  nightBlue: {r: 0.06, g: 0.08, b: 0.2, a: 1}
+  uiPanel: {r: 0.08, g: 0.09, b: 0.16, a: 0.92}
+  uiAccent: {r: 1, g: 0.78, b: 0.35, a: 1}
+  uiText: {r: 0.97, g: 0.93, b: 0.85, a: 1}
+  entries:
+  - key: bg_sky
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.05, g: 0.07, b: 0.18, a: 1}
+    tintSprite: 0
+  - key: bg_building
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.13, g: 0.13, b: 0.22, a: 1}
+    tintSprite: 0
+  - key: bg_window_lit
+    sprite: {fileID: 0}
+    placeholderColor: {r: 1, g: 0.84, b: 0.45, a: 1}
+    tintSprite: 0
+  - key: bg_window_dark
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.07, g: 0.08, b: 0.13, a: 1}
+    tintSprite: 0
+  - key: bg_street
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.11, g: 0.11, b: 0.15, a: 1}
+    tintSprite: 0
+  - key: bg_streetlight
+    sprite: {fileID: 0}
+    placeholderColor: {r: 1, g: 0.9, b: 0.6, a: 1}
+    tintSprite: 0
+  - key: taxi
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.95, g: 0.76, b: 0.12, a: 1}
+    tintSprite: 0
+  - key: taxi_wheel
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.04, g: 0.04, b: 0.05, a: 1}
+    tintSprite: 0
+  - key: booth_frame
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.24, g: 0.2, b: 0.18, a: 1}
+    tintSprite: 0
+  - key: awning
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.62, g: 0.12, b: 0.12, a: 1}
+    tintSprite: 0
+  - key: counter_top
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.5, g: 0.32, b: 0.17, a: 1}
+    tintSprite: 0
+  - key: workspace
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.32, g: 0.2, b: 0.12, a: 1}
+    tintSprite: 0
+  - key: doner_rod
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.72, g: 0.72, b: 0.75, a: 1}
+    tintSprite: 0
+  - key: doner_meat
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.58, g: 0.34, b: 0.15, a: 1}
+    tintSprite: 0
+  - key: grill
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.2, g: 0.2, b: 0.22, a: 1}
+    tintSprite: 0
+  - key: container
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.72, g: 0.74, b: 0.78, a: 1}
+    tintSprite: 0
+  - key: drink_rack
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.3, g: 0.22, b: 0.15, a: 1}
+    tintSprite: 0
+  - key: plate
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.92, g: 0.92, b: 0.94, a: 1}
+    tintSprite: 0
+  - key: durum_wrapped
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.88, g: 0.74, b: 0.5, a: 1}
+    tintSprite: 0
+  - key: wrap_board
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.62, g: 0.46, b: 0.3, a: 1}
+    tintSprite: 0
+  - key: trash
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.28, g: 0.3, b: 0.3, a: 1}
+    tintSprite: 0
+  - key: radio
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.36, g: 0.26, b: 0.18, a: 1}
+    tintSprite: 0
+  - key: rule_paper
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.93, g: 0.9, b: 0.8, a: 1}
+    tintSprite: 0
+  - key: ing_lavas
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.94, g: 0.86, b: 0.66, a: 1}
+    tintSprite: 0
+  - key: ing_tavuk
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.82, g: 0.56, b: 0.3, a: 1}
+    tintSprite: 0
+  - key: ing_marul
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.36, g: 0.76, b: 0.3, a: 1}
+    tintSprite: 0
+  - key: ing_domates
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.86, g: 0.2, b: 0.15, a: 1}
+    tintSprite: 0
+  - key: ing_acisos
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.55, g: 0.04, b: 0.04, a: 1}
+    tintSprite: 0
+  - key: drink_ayran
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.97, g: 0.97, b: 0.95, a: 1}
+    tintSprite: 0
+  - key: drink_kola
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.28, g: 0.09, b: 0.05, a: 1}
+    tintSprite: 0
+  - key: customer_student
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.26, g: 0.42, b: 0.72, a: 1}
+    tintSprite: 0
+  - key: customer_nurse
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.62, g: 0.8, b: 0.86, a: 1}
+    tintSprite: 0
+  - key: customer_taxi
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.38, g: 0.32, b: 0.26, a: 1}
+    tintSprite: 0
+  - key: customer_watchman
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.22, g: 0.28, b: 0.24, a: 1}
+    tintSprite: 0
+  - key: customer_child
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.82, g: 0.1, b: 0.1, a: 1}
+    tintSprite: 0
+  - key: ui_balloon
+    sprite: {fileID: 0}
+    placeholderColor: {r: 0.97, g: 0.95, b: 0.9, a: 1}
+    tintSprite: 0
+  - key: bg_counter
+    sprite: {fileID: 6958460920357807163, guid: d3157e238603d7841827db9d1b04fad0, type: 3}
+    placeholderColor: {r: 0, g: 0, b: 0, a: 1}
+    tintSprite: 0

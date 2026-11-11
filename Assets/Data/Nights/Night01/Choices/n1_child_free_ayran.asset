@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa113b6b1cebaa43ae44ad57bae2b79, type: 3}
+  m_Name: n1_child_free_ayran
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.ChoiceData
+  id: n1_child_free_ayran
+  label: "\xC7ocu\u011Fa bedava ayran ver"
+  resultText: "\xC7ocuk ayran\u0131 iki eliyle tuttu. Sana uzun uzun bakt\u0131."
+  effects:
+  - counter: 3
+    amount: 1
+  tensionSpike: 0.05
+  flickerLights: 0

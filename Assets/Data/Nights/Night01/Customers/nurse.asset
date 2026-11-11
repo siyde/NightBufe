@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08107c376139164eb83f3894259a131, type: 3}
+  m_Name: nurse
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.CustomerData
+  id: nurse
+  displayName: "Hem\u015Fire"
+  artKey: customer_nurse
+  isSmall: 0
+  paleness: 0
+  arrivalTime: 00:20
+  order:
+    wantsDurum: 1
+    fillings:
+    - tavuk
+    - marul
+    - domates
+    drink: kola
+  orderText: "Ac\u0131s\u0131z bir tavuk d\xFCr\xFCm; marul, domates olsun. Bir de
+    kola."
+  greeting: "Vardiya aras\u0131, be\u015F dakikam var."
+  price: 110
+  paysMoney: 1
+  servedLine: "Sa\u011F ol. Yo\u011Fun bak\u0131m bu gece \xE7ok sessiz... garip."
+  servedLineIfSigned: 
+  wrongOrderLine: Hmm. Neyse, yolda yerim.
+  refusedLine: "Peki... Hastane kantini de kapal\u0131yd\u0131 zaten."
+  servedChoice: {fileID: 0}
+  refusedChoice: {fileID: 0}
+  talkOptions:
+  - label: "Hastane yak\u0131n m\u0131?"
+    reply: "\u015Eu k\xF6\u015Feyi d\xF6n\xFCnce. Bu gece bir kaza vakas\u0131 geldi,
+      gen\xE7 biri. H\xE2l\xE2 uyanmad\u0131."
+    choice: {fileID: 0}

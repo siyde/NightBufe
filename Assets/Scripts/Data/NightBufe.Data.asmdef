@@ -1,0 +1,16 @@
+{
+    "name": "NightBufe.Data",
+    "rootNamespace": "NightBufe.Data",
+    "references": [
+        "NightBufe.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

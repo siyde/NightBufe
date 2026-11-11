@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08107c376139164eb83f3894259a131, type: 3}
+  m_Name: student
+  m_EditorClassIdentifier: NightBufe.Data::NightBufe.Data.CustomerData
+  id: student
+  displayName: "\xDCniversiteli \xD6\u011Frenci"
+  artKey: customer_student
+  isSmall: 0
+  paleness: 0
+  arrivalTime: 23:08
+  order:
+    wantsDurum: 1
+    fillings:
+    - tavuk
+    - marul
+    drink: ayran
+  orderText: "Bir tavuk d\xFCr\xFCm, bol marullu. Yan\u0131na da ayran."
+  greeting: "Kolay gelsin! Vize haftas\u0131, uyku yok."
+  price: 90
+  paysMoney: 1
+  servedLine: "Ellerine sa\u011Fl\u0131k! Bu beni sabaha kadar idare eder."
+  servedLineIfSigned: 
+  wrongOrderLine: "Bu... benim istedi\u011Fim de\u011Fil ama neyse. A\xE7\u0131m
+    zaten."
+  refusedLine: "Kapal\u0131 m\u0131? I\u015F\u0131klar yan\u0131yor ama..."
+  servedChoice: {fileID: 0}
+  refusedChoice: {fileID: 0}
+  talkOptions: []
